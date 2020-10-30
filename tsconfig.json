@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "target": "ES5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "diagnostics": true,
+        "rootDir": "./",
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "baseUrl": "./",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
