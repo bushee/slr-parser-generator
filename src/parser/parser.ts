@@ -26,7 +26,7 @@ export class Parser<T = unknown> {
                     const result = action.execute(stack, tokens);
 
                     if (result === true) {
-                        resolve((stack[1] as Token<T>).value);
+                        resolve((stack[1] as Token<T>).value!);
                         return;
                     }
                     state = result;
